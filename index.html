@@ -1,206 +1,28 @@
-<!DOCTYPE html>
 <html lang="en">
-    <head>
-        <met#aeb3b8et="utf-8">
-        <title>Data Geek</title>
-        <meta content="width=device-width, initial-scale=1.0" name="viewport">
-        <meta content="Free Website Template" name="keywords">
-        <meta content="Free Website Template" name="description">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <!-- Favicon -->
-        <link href="img/favicon.ico" rel="icon">
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
-        <!-- Google Web Fonts -->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="/style.css" />
+</head>
 
-        <!-- Icon Font Stylesheet -->
-        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+<body>
+<div id="maincontent" style="margin-top:70px">    
+    <h1 style="font-family: Menlo">Anand K</h1>
+    
+    <p style="font-family: Menlo"> 
+        Data Geek! Ambitious, Self-Motivated, Optimistic and Intuitive with outstanding analytical & leadership skills. 
+        Always passionate about learning new things and taking on challenges.</p>
+    
+    <a  href="https://medium.com/@anandkarthick" target="_blank"><i class="fab fa-medium" style="padding-right: 10px; padding-left: 10px; font: size 48px;"></i></a>
+    <a  href="https://github.com/Anandkarthick" target="_blank"><i class="fab fa-github" style="padding-right: 10px; padding-left: 10px; font: size 48px;"></i></a>
+    
 
-        <!-- Libraries Stylesheet -->
-        <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
-        <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
-        <link href="lib/animate/animate.min.css" rel="stylesheet">
 
-        <!-- Customized Bootstrap Stylesheet -->
-        <link href="css/bootstrap.min.css" rel="stylesheet">
-
-        <!-- Template Stylesheet -->
-        <link href="css/style.css" rel="stylesheet">
-    </head>
-
-    <body>
-        <!-- Spinner Start -->
-        <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
-            <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
-                <span class="sr-only">Loading...</span>
-            </div>
-        </div>
-        <!-- Spinner End -->
-
-        <div class="container">
-            <div class="row g-5">
-                <div class="col-lg-4 sticky-lg-top vh-100">
-                    <div class="d-flex flex-column h-100 text-center overflow-auto shadow">
-                        <!--<img class="w-100 img-fluid mb-2" src="img/TFAHanSolo.jpeg" alt="Image"> -->
-                        <img class="rounded-circle z-depth-8" src="img/TFAHanSolo.jpeg" data-holder-rendered="true" >
-                        <h1 class="text-primary mt-0">Anand K</h1>
-                        <div class="mb-2" style="height: 12px;">
-                            <h4 class="typed-text-output d-inline-block text-light"></h4>
-                            <div class="typed-text-output d-inline-block text-light">Data Geek</div>
-                        </div>
-                        <div class="d-flex justify-content-center mt-auto mb-1">
-                            <a class="btn btn-dark btn-square mx-1" href="https://github.com/Anandkarthick" target="_blank"><i class="fab fa-github"></i></a>
-                        </div>
-                        <div class="d-flex align-items-end justify-content-between border-top">
-                            <a href="#" target="_blank" class="btn w-50 border-end">Download CV</a>
-                            <a href="" class="btn w-50 btn-scroll">Contact Me</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-8">
-                    <!-- About Start -->
-                    <section class="py-5 border-bottom wow fadeInUp" data-wow-delay="0.1s">
-                        <h1 class="title pb-3 mb-5">About Me</h1>
-                        <p>Data Geek! Ambitious, Self-Motivated, Optimistic and Intuitive. Professional with over 12 years of experience and outstanding analytical & leadership skills. Always passionate about learning new things and taking on challenges.</p>
-                        <div class="row mb-4">
-                            <div class="col-sm-6 py-1">
-                                <span class="fw-medium text-primary">Name:</span> Anandkarthick
-                            </div>
-                            <div class="col-sm-6 py-1">
-                                <span class="fw-medium text-primary">Location:</span> SF Bay Area, California
-                            </div>
-                        </div>
-                        <div class="row g-4">
-                        </div>
-                    </section>
-                    <!-- About End -->
-
-                    <!-- Skills Start -->
-                    <section class="py-5 border-bottom wow fadeInUp" data-wow-delay="0.1s">
-                        <h1 class="title pb-3 mb-5">Skills</h1>
-                        <div class="row">
-                            <div class="col-sm-12 py-1">
-                                <h5 class="title pb-2 mb-3">Technical</h5>
-                                <div class="skill mb-4">
-                                    <p class="mb-6"> Python, Airflow, Airbyte, DBT, ETL, Spark, Scala, SQL, Collibra, Kafka, Tableau, MPP Systems, docker, Segment, Amplitude, BigEye, Fivetran</p>
-                                    <p class="mb-6"> AWS components (S3, RDS, Dynamo DB, EMR, EC2, IAM, Lambda, RDS, Kinesis, SNS, SQS, etc)</p>
-                                </div>
-
-                                <h5 class="title pb-2 mb-3">Concepts</h5>
-                                <div class="skill mb-6">
-                                    <p>Data Integration, Data Analytics, OLAP/OLTP systems, Business Intelligence, Metadata Management, data Modeling, Data Visualization, Data Governance, Data Architecture.</p>
-                                </div>
-                            </div>
-                            
-                        </div>
-                    </section>
-                    <!-- Skills End -->
-
-                    <!-- Expericence Start -->
-                    <section class="py-5 wow fadeInUp" data-wow-delay="0.1s">
-                        <h1 class="title pb-3 mb-5">Professional Summary</h1>
-                        <div class="border-start border-2 border-light pt-2 ps-5">
-                            <div class="position-relative mb-4">
-                                <span class="bi bi-arrow-right fs-4 text-light position-absolute" style="top: -5px; left: -50px;"></span>
-                                <h5 class="mb-1">Senior Software Engineering - Data Analytics & Platforms</h5>
-                                <p class="text-primary mb-2" >EdTech | <small>Udacity</small></p>
-                                <p class="text-light mb-2">SF Bay Area, CA | <small>Sep 2021 - Present</small></p>
-                                    <li> Designed and Implemented framework to govern events data from customer data platform using Python, DBT, Airflow, and third party API.</li>
-                                    <li> Designed and created self serving tracking plan in Tableau & governance dashboard with key metrics, access insights and issues 
-                                        enabling Product and Engineering teams to proactively identify issues and avoid redundancies.</li>
-                                    <li> Designed Central Metadata repository with Apache Atlas and built data pipelines to ingest/extract data for operational reporting & dashboards enabling the org with cleaner data catalog.</li>
-                                    <li> Contribution to open source : Airbyte connector for Clari to bring in sales/revenue data, bug fix in Apache Atlas Client (Metadata management).</li>
-                                    <li> Built robust data pipelines in Airflow with automated unit test cases, data modeling to integrate data via API from third party sources to data lake, operators for Airflow, dbt models to enable analytics on student retention data.</li>
-                                    <li> Built reusable data masking and encryption frameworks for PII data, reusable tools for audit compliance and handling.</li>
-                            </div>
-                            <div class="position-relative mb-4">
-                                <span class="bi bi-arrow-right fs-4 text-light position-absolute" style="top: -5px; left: -50px;"></span>
-                                <h5 class="mb-1">Data Engineering</h5>
-                                <p class="text-primary mb-2">Financial Services | <small>Accenture</small></p>
-                                <p class="text-light mb-2"> Hartford, CT | <small>Dec 2019 - Sep 2021</small></p>
-                                    <li> Lead data engineering efforts and building scalable data pipelines, API based data integration framework and 
-                                        cloud apps to integrate data from internal and third party systems.</li>
-                                    <li> Designed and created self serving tracking plan in Tableau & governance dashboard with key metrics, access insights and issues enabling Product and Engineering teams to proactively identify issues and avoid redundancies.</li>
-                                    <li> Designed Central Metadata repository with Apache Atlas and built data pipelines to ingest/extract data for operational reporting & dashboards enabling the org with cleaner data catalog.</li>
-                                    <li> Contribution to open source : Airbyte connector for Clari to bring in sales/revenue data, bug fix in Apache Atlas Client (Metadata management).</li>
-                                    <li> Built robust data pipelines in Airflow with automated unit test cases, data modeling to integrate data via API from third party sources to data lake, operators for Airflow, dbt models to enable analytics on student retention data.</li>
-                                    <li> Built reusable data masking and encryption frameworks for PII data, reusable tools for audit compliance and handling.</li>
-                            </div>
-                        </div>
-                    </section>
-                    <!-- Expericence End -->
-
-                    <!-- Subscribe Start -->
-
-                    <!-- Subscribe End -->
-
-                    <!-- Services Start -->
- 
-                    <!-- Services End -->
-
-                    <!-- Portfolio Start -->
- 
-                    <!-- Portfolio End -->
-
-                    <!-- Testimonial Start -->
-
-                    <!-- Testimonial End -->
-
-                    <!-- Contact Start -->
- 
-                    <!-- Contact End -->
-
-                    <!-- Footer Start -->
-                    <section class="wow fadeIn" data-wow-delay="0.1s">
-                        <div class="bg-secondary text-light text-center p-1">
-                            <div class="d-flex justify-content-center mb-2">
-                               <!--  <a class="btn btn-dark btn-square mx-1" href="https://github.com/Anandkarthick" target="_blank"><i class="fab fa-github"></i></a>
-                               <a class="btn btn-dark btn-square mx-1" href="#"><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-dark btn-square mx-1" href="#"><i class="fab fa-linkedin-in"></i></a>
-                                <a class="btn btn-dark btn-square mx-1" href="#"><i class="fab fa-instagram"></i></a> -->
-                            </div>
-                            <div class="d-flex justify-content-center mb-3">
-                                <!--
-                                <a class="text-light px-3 border-end" href="#">Privacy</a>
-                                <a class="text-light px-3 border-end" href="#">Terms</a>
-                                <a class="text-light px-3 border-end" href="#">FAQs</a>
-                                <a class="text-light px-3" href="#">Help</a>
-                                -->
-                            </div>
-							
-                            <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
-							<p class="m-0">&copy; All Rights Reserved. Designed by <a href="https://htmlcodex.com">HTML Codex</a></p>
-                        </div>
-                    </section>
-                    <!-- Footer End -->
-                </div>
-            </div>
-        </div>
-
-        
-        <!-- Back to Top -->
-        <a href="#" class="back-to-top"><i class="fa fa-angle-double-up"></i></a>
-        
-        <!-- JavaScript Libraries -->
-        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
-        <script src="lib/wow/wow.min.js"></script>
-        <script src="lib/typed/typed.min.js"></script>
-        <script src="lib/easing/easing.min.js"></script>
-        <script src="lib/waypoints/waypoints.min.js"></script>
-        <script src="lib/counterup/counterup.min.js"></script>
-        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-        <script src="lib/isotope/isotope.pkgd.min.js"></script>
-        <script src="lib/lightbox/js/lightbox.min.js"></script>
-
-        <!-- Contact Javascript File -->
-        <script src="mail/jqBootstrapValidation.min.js"></script>
-        <script src="mail/contact.js"></script>
-
-        <!-- Template Javascript -->
-        <script src="js/main.js"></script>
-    </body>
-</html>
