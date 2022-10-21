@@ -1,0 +1,14 @@
+/* This is used to "clear" the floated elements */
+.images { overflow: hidden; width: 100% }
+
+/* float the elements so that white space does not matter */
+.images img { float: left; }
+
+.btn-square {
+    width: 40px;
+    height: 40px;
+  }
+.maincontent
+{
+max-width:42em;margin:15 auto;
+}
